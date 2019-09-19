@@ -88,7 +88,7 @@ footer {
     width:100%;
     left: 0;
     bottom: 0;
-    padding: 25px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
     background-color: #666666;
     text-align: center;
     color: #ffffff;
@@ -289,6 +289,28 @@ small {
     border: none;
 }
 
+
+/* ------------------------------------ */
+
+a:hover {
+    transition: .5s ease;
+    color: black;
+}
+
+#nav-ul {
+    margin-top: 0px !important;
+    align-items:center;
+}
+
+
+
+@media screen and (max-width:574px){
+    #main-nav {
+        justify-content: center;
+    }
+}
+
+/* ------------------------------------ */
 
 @media screen and (max-width: 640px) {
     main {
