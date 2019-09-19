@@ -133,9 +133,7 @@ nav a:hover {
 }
 
 main {
-    margin: left;
-    margin-left:2px;
-    margin-top: 90px;
+    margin-top: 12.5vh;
     padding: 20px;
     background-color: #ffffff;
     max-width: 960px;
@@ -291,6 +289,24 @@ small {
 
 
 /* ------------------------------------ */
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    position:relative;
+    min-height: 75vh;
+    width: 80%;
+    /* justify-content: center; */
+}
+
+.heading {
+    justify-content: center;
+    text-align: center;
+}
 
 a.anchor {
     display: block;
@@ -321,10 +337,10 @@ a:hover {
 /* ------------------------------------ */
 
 @media screen and (max-width: 640px) {
-    main {
+    /* main {
         max-width: 620px;
-        margin-top: 120px;
-    }
+        /* margin-top: 120px; */
+    } */
 
     #logo {
         width:100%;
@@ -343,14 +359,14 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    main {
+    /* main {
         max-width: 748px;
-    }
+    } */
 }
 
 @media screen and (max-width: 980px) {
-    main {
+    /* main {
         max-width: 960px;
-    }
+    } */
 
 }

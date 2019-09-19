@@ -6,3 +6,8 @@
      let id = $(this).attr('aria-controls');
      $('#'+id).addClass('show')
  });
+
+
+ $(".nav-link").on('event', function() {
+    console.log(event);
+});
