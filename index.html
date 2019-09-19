@@ -23,18 +23,18 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="nav-ul">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" role="button" aria-expanded="true"
-                            aria-controls="about-content" data-target="#about" data-offset="200">About</a>
+                        <a class="nav-link navbar-link" href="#about-anchor" role="button" aria-expanded="true"
+                            aria-controls="about-content">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" role="button" aria-expanded="true"
-                            aria-controls="contact-content" data-target="#contact" data-offset="200">Contact</a>
+                        <a class="nav-link navbar-link" href="#contact-anchor" role="button" aria-expanded="true"
+                            aria-controls="contact-content">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="assets/resume.pdf" target='_blank'>Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" role="button" aria-expanded="true"
+                        <a class="nav-link navbar-link" href="#portfolio-anchor" role="button" aria-expanded="true"
                             aria-controls="portfolio-content">Portfolio</a>
                     </li>
                 </ul>
@@ -45,6 +45,7 @@
 
     <main data-spy="scroll" data-target="#main-nav" data-offset="0">
         <section id="about">
+            <a class="anchor" id="about-anchor"></a>
             <section id="about-heading">
                 <a class="nav-link" data-toggle="collapse" href="#about-content" role="button" aria-expanded="false"
                     aria-controls="about-content">
@@ -88,8 +89,8 @@
         </section>
 
         <section id="contact">
+            <a class="anchor" id="contact-anchor"></a>
             <section id="contact-heading">
-
                 <a class="nav-link" data-toggle="collapse" href="#contact-content" role="button" aria-expanded="false"
                     aria-controls="contact-content">
                     <h2>Contact</h2>
@@ -108,6 +109,7 @@
         </section>
 
         <section id="portfolio">
+            <a class="anchor" id="portfolio-anchor"></a>
             <section id="portfolio-heading">
                 <a class="nav-link" data-toggle="collapse" href="#portfolio-content" role="button" aria-expanded="false"
                     aria-controls="portfolio-content">
@@ -717,6 +719,7 @@
         </section>
     </footer>
 
+    <!-- BOOTSTRAP SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -726,6 +729,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- PERSONAL SCRIPT -->
+    <script src="./assets/javascript/index.js"></script>
 </body>
 
 </html>
