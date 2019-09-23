@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>About Me</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    <title>Nolan Henry</title>
 </head>
 
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top" id="main-nav">
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-fixed-top" id="main-nav">
             <a class="navbar-brand" href="#">Nolan Henry</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,18 +24,18 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="nav-ul">
                     <li class="nav-item">
-                        <a class="nav-link navbar-link active" href="#about-anchor" role="button" aria-expanded="true"
+                        <a class="nav-link navbar-link" href="#about-anchor" aria-expanded="false"
                             aria-controls="about-content">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-link" href="#contact-anchor" role="button" aria-expanded="true"
+                        <a class="nav-link navbar-link active" href="#contact-anchor" aria-expanded="false"
                             aria-controls="contact-content">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="assets/resume.pdf" target='_blank'>Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-link" href="#portfolio-anchor" role="button" aria-expanded="true"
+                        <a class="nav-link navbar-link" href="#portfolio-anchor" aria-expanded="false"
                             aria-controls="portfolio-content">Portfolio</a>
                     </li>
                 </ul>
@@ -45,47 +46,52 @@
 
     <main data-spy="scroll" data-target="#main-nav" data-offset="0">
         <section id="about">
-            <a class="anchor" id="about-anchor"></a>
-            <section class="heading" id="about-heading">
-                <a class="nav-link" data-toggle="collapse" href="#about-content" role="button" aria-expanded="false"
-                    aria-controls="about-content">
-                    <h2>About Me</h2>
-                </a>
-            </section>
-            <section class="collapse" id="about-content">
-                <img id="photo" src="assets/images/headshot.jpg">
-                <section id="info">
-                    <p>
-                        I graduated from Virginia Tech with a Bachelor of Science in Psychology and Statistics.
-                        Originally from Norfolk, Virginia, I moved to Arlington and have been working as a Pricing
-                        Analyst within the busy world of government contracting for the past 3 years. At my last
-                        position, I
-                        was lucky enough to have the opportunity to teach myself VBA in order to develop a custom,
-                        flexible
-                        pricing model for my company. I recognized I had a passion for programming and designing tools
-                        and
-                        interfaces. This allowed me to improve on my ability to quickly analyze data and lead meetings.
-                        Eventually, I realized that there was enormous potential to solving problems through code. I
-                        knew I
-                        wanted to focus on realizing this potential and that the first step would be to make a career
-                        change.
-                    </p>
-
-                    <p>
-                        I recently graduated from the Full Stack Flex Web Development coding bootcamp at George
-                        Washington
-                        University in order to pursue a future in web development.
-                        <br>
-                        While not coding or studying, I enjoy...
-                        <ul>
-                            <li>singing and playing guitar</li>
-                            <li>improving on my chess game</li>
-                            <li>freelance consulting</li>
-                            <li>making fanedits of various movies, namely Star Wars, to fix my head-canon</li>
-                        </ul>
-                    </p>
+            <div class="row-fluid">
+                <a class="anchor" id="about-anchor"></a>
+                <section class="heading" id="about-heading">
+                    <a class="nav-link" data-toggle="collapse" href="#about-content" role="button" aria-expanded="false"
+                        aria-controls="about-content">
+                        <h2>About Me</h2>
+                    </a>
                 </section>
-            </section>
+                <section class="collapse" id="about-content">
+                    <img id="photo" src="assets/images/headshot_2.png">
+                    <section id="info">
+                        <p>
+                            I graduated from Virginia Tech with a Bachelor of Science in Psychology and Statistics.
+                            Originally from Norfolk, Virginia, I moved to Arlington and have been working as a Pricing
+                            Analyst within the busy world of government contracting for the past 3 years. At my last
+                            position, I
+                            was lucky enough to have the opportunity to teach myself VBA in order to develop a custom,
+                            flexible
+                            pricing model for my company. I recognized I had a passion for programming and designing
+                            tools
+                            and
+                            interfaces. This allowed me to improve on my ability to quickly analyze data and lead
+                            meetings.
+                            Eventually, I realized that there was enormous potential to solving problems through code. I
+                            knew I
+                            wanted to focus on realizing this potential and that the first step would be to make a
+                            career
+                            change.
+                        </p>
+
+                        <p>
+                            I recently graduated from the Full Stack Flex Web Development coding bootcamp at George
+                            Washington
+                            University in order to pursue a future in web development.
+                            <br>
+                            While not coding or studying, I enjoy...
+                            <ul>
+                                <li>singing and playing guitar</li>
+                                <li>improving on my chess game</li>
+                                <li>freelance consulting</li>
+                                <li>making fanedits of various movies, namely Star Wars, to fix my head-canon</li>
+                            </ul>
+                        </p>
+                    </section>
+                </section>
+            </div>
         </section>
 
         <section id="contact">
@@ -704,17 +710,17 @@
                 </div>
             </section>
         </section>
-    </main> -->
+    </main>
 
 
 
     <footer>
         <section id='external'>
-            <a href='https://github.com/enfenry' target='_blank'><img class='external' src='assets/images/gitHub.png'
-                    width='25' height='25'>
+            <a href='https://github.com/enfenry' target='_blank'>
+                <img class='external' src='assets/images/gitHub_white.png' width='25' height='25'>
             </a>
-            <a href='https://www.linkedin.com/in/nolanhenry/' target='_blank'><img class='external'
-                    src='assets/images/linkedIn_black_t.png' width='25' height='25'>
+            <a href='https://www.linkedin.com/in/nolanhenry/' target='_blank'>
+                <img class='external' src='assets/images/linkedIn_white_t.png' width='25' height='25'>
             </a>
         </section>
     </footer>

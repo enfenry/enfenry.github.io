@@ -1,13 +1,14 @@
-// $('.navbar-collapse').on('show.bs.collapse', function() {
-//     $('.navbar-toggle').removeClass('collapsed')
-//  });
+$(document).ready(function () {
+    // let aboutNav = $('#about-nav');
+    // console.log(aboutNav.attr('class'));
+    // aboutNav.removeClass('active');
 
- $('.navbar-link').on('click', function() {
-     let id = $(this).attr('aria-controls');
-     $('#'+id).addClass('show')
- });
+    // aboutNav.attr("class", "nav-link navbar-link")
 
 
- $(".nav-link").on('event', function() {
-    console.log(event);
+    $('.navbar-link').on('click', function () {
+        let id = $(this).attr('aria-controls');
+        $('#' + id).addClass('show')
+    });
+
 });

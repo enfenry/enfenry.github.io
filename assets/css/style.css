@@ -10,10 +10,9 @@ a {
 }
 
 a.external {
-    color: rgba(74,170,165,1);
-    font-weight:bold;
+    color: rgba(74, 170, 165, 1);
+    font-weight: bold;
 }
-
 
 a.portfolio {
     color: #ffffff;
@@ -27,15 +26,11 @@ img.external {
     margin: 0px 10px 0px 10px;
 }
 
-h1,
-h2,
-h4 {
+h1, h2, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h1,
-h4
- {
+h1, h4 {
     color: #ffffff;
 }
 
@@ -43,8 +38,8 @@ h1 {
     text-shadow: 2px 2px 2px rgba(100, 100, 100, 1);
 }
 
-h2{
-    color: rgba(74,170,165,1);
+h2 {
+    color: rgba(255, 255, 255, 1);
 }
 
 h4 {
@@ -52,10 +47,8 @@ h4 {
     margin-block-end: .3rem;
 }
 
-h1:hover,
-h1:active,
-h1:focus {
-    color:black;
+h1:hover, h1:active, h1:focus {
+    color: black;
     transition: .5s ease;
 }
 
@@ -67,15 +60,14 @@ body {
 header {
     overflow: hidden;
     position: fixed;
-    width:100%;
+    width: 100%;
     left: 0;
     top: 0;
     margin-bottom: 20px;
-    background-color: #ffffff;
     border: solid;
     border-color: #cccccc;
     border-width: 0px 0px 0px 0px;
-    box-shadow: 0px 0px 5px 0px rgb(100, 100, 100) inset,  0px 0px 10px 0px rgb(100, 100, 100) inset , 0px 0px 10px 0px rgb(100, 100, 100);
+    /* box-shadow: 0px 0px 5px 0px rgb(100, 100, 100) inset, 0px 0px 10px 0px rgb(100, 100, 100) inset, 0px 0px 10px 0px rgb(100, 100, 100); */
     z-index: 3;
 }
 
@@ -85,37 +77,38 @@ header {
 
 footer {
     position: fixed;
-    width:100%;
+    width: 100%;
     left: 0;
     bottom: 0;
     padding: 20px 0px 10px 0px;
-    background-color: #666666;
+    background-color: rgb(49, 50, 55);
     text-align: center;
     color: #ffffff;
     z-index: 3;
-    overflow:hidden;
-    box-shadow: 0px 8px 6px -2px rgba(74,170,165,1) inset;
-
+    overflow: hidden;
+    box-shadow: 0px 6px 1px -2px #dddddd inset;
 }
 
 #logo {
-    background-color: rgba(74,170,165,1);
+    background-color: rgba(74, 170, 165, 1);
     border-radius: 0px 50px 50px 0px;
-    box-shadow: 2px 0px 1px 0px rgb(255, 255, 255) ,4px 2px 2px 0px rgb(100, 100, 100) , 4px 0px 10px rgb(100,100,100);
+    box-shadow: 2px 0px 1px 0px rgb(255, 255, 255), 4px 2px 2px 0px rgb(100, 100, 100), 4px 0px 10px rgb(100, 100, 100);
     color: #ffffff;
     float: left;
-    position:relative;
-    height:100%;
+    position: relative;
+    height: 100%;
     padding: 0px 20px 0px 20px;
 }
 
 #logo:hover {
-    box-shadow: 2px 0px 1px 0px rgb(255, 255, 255) , 4px 2px 2px 0px rgb(100, 100, 100), 4px 4px 2px 0px rgb(100, 100, 100) , 4px 0px 10px rgb(100,100,100);
+    box-shadow: 2px 0px 1px 0px rgb(255, 255, 255), 4px 2px 2px 0px rgb(100, 100, 100), 4px 4px 2px 0px rgb(100, 100, 100), 4px 0px 10px rgb(100, 100, 100);
     transition: .5s ease;
 }
 
 nav {
-
+    background-color: rgb(49, 50, 55);
+    /* box-shadow: 0 -10px 10px -10px #dddddd inset; */
+    box-shadow: 0px -3px 1px 0px #dddddd inset;
 }
 
 nav a:hover {
@@ -125,24 +118,17 @@ nav a:hover {
 
 #navBar {
     float: right;
-    position:relative;
-    height:100%;
+    position: relative;
+    height: 100%;
     padding: 20px 20px 20px 20px;
-    right:1%;
-
+    right: 1%;
 }
 
 main {
     margin-top: 12.5vh;
     padding: 20px;
-    background-color: #ffffff;
-    max-width: 960px;
-    border: solid;
-    border-color: #cccccc;
-    border-width: 2px;
     margin-bottom: 90px;
     z-index: 1;
-    border-radius: 50px;
 }
 
 #heading {
@@ -154,33 +140,35 @@ main {
 
 #photo {
     float: left;
-    border-radius: 50px;
+    border-radius: 50%;
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
     margin: 5px 16px 5px 0px;
+    width: 300px;
+    height: 300px;
 }
 
 #gallery {
     margin: auto;
     padding: 20px;
-    background-color: #ffffff;
 }
 
 .clearfix:after {
-    content: " "; /* Older browser do not support empty content */
+    content: " ";
+    /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
     height: 0;
     clear: both;
- }
+}
 
 .frame {
     margin: 20px;
     width: 260px;
     height: 260px;
     float: left;
-    border:solid;
+    border: solid;
     border-width: 2px;
     border-color: #dddddd;
 }
@@ -194,8 +182,7 @@ img.caption {
     /* margin-top: 5px; */
 }
 
-img.caption:hover,
-img.external:hover {
+img.caption:hover, img.external:hover {
     -webkit-filter: invert(1);
     filter: invert(1);
     transition: .5s ease;
@@ -205,7 +192,7 @@ img.project {
     transition: .5s ease;
     opacity: 1;
     -webkit-filter: grayscale(0%) contrast(100%);
-    filter: grayscale(0%) contrast(100%);  
+    filter: grayscale(0%) contrast(100%);
 }
 
 a.portfolio:hover h4 {
@@ -216,27 +203,26 @@ a.portfolio:hover h4 {
 .frame:hover img.project {
     transition: .5s ease;
     opacity: .8;
-    -webkit-filter: grayscale(0%) contrast(70%); 
+    -webkit-filter: grayscale(0%) contrast(70%);
     filter: grayscale(0%) contrast(70%);
     filter: blur(2px);
-
 }
 
 aside.caption {
-    background-color: rgba(74,170,165,.8);
-    width:100%;
-    height:100%;
-    padding:10px;
+    background-color: rgba(74, 170, 165, .8);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
     position: relative;
     bottom: 262px;
     text-align: center;
-    float:left;
+    float: left;
     color: #ffffff;
     z-index: 2;
 }
 
 table.wide {
-    width:100%;
+    width: 100%;
 }
 
 table.wide td {
@@ -262,14 +248,12 @@ small {
 }
 
 .caption {
-        opacity: 0;
-        position: relative;
-        text-align: center;
+    opacity: 0;
+    position: relative;
+    text-align: center;
 }
 
-#inputname,
-#inputemail,
-#inputmessage {
+#inputname, #inputemail, #inputmessage {
     width: 100%;
     border: solid;
     border-color: #dddddd;
@@ -281,23 +265,22 @@ small {
 }
 
 #submitbutton {
-    background-color: rgba(74,170,165,1);
+    background-color: rgba(74, 170, 165, 1);
     color: #ffffff;
     padding: 5px 20px 5px 20px;
     border: none;
 }
 
-
 /* ------------------------------------ */
+
 body {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-
 main {
-    position:relative;
+    position: relative;
     min-height: 75vh;
     width: 80%;
     /* justify-content: center; */
@@ -315,7 +298,6 @@ a.anchor {
     visibility: hidden;
 }
 
-
 a:hover {
     transition: .5s ease;
     color: black;
@@ -323,12 +305,10 @@ a:hover {
 
 #nav-ul {
     margin-top: 0px !important;
-    align-items:center;
+    align-items: center;
 }
 
-
-
-@media screen and (max-width:574px){
+@media screen and (max-width:574px) {
     #main-nav {
         justify-content: center;
     }
@@ -340,22 +320,23 @@ a:hover {
     /* main {
         max-width: 620px;
         /* margin-top: 120px; */
-    } */
+}
 
-    #logo {
-        width:100%;
-        text-align: center;
-        left:0%;
-        border-radius: 0px;
-    }
+*/ #logo {
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    border-radius: 0px;
+}
 
-    #navBar {
-        width:100%;
-        margin:auto;
-        text-align:center;
-        padding:10px 20px 10px 20px;
-        right:0%;
-    }
+#navBar {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    right: 0%;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -368,5 +349,4 @@ a:hover {
     /* main {
         max-width: 960px;
     } */
-
 }
