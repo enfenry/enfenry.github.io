@@ -18,9 +18,9 @@ a.portfolio {
     color: #ffffff;
 }
 
-td.skills {
+/* td.skills {
     padding-right: 50px;
-}
+} */
 
 img.external {
     margin: 0px 10px 0px 10px;
@@ -42,10 +42,10 @@ h2 {
     color: rgba(255, 255, 255, 1);
 }
 
-h4 {
+/* h4 {
     margin-block-start: .6rem;
     margin-block-end: .3rem;
-}
+} */
 
 h1:hover, h1:active, h1:focus {
     color: black;
@@ -94,7 +94,7 @@ footer {
     border-radius: 0px 50px 50px 0px;
     box-shadow: 2px 0px 1px 0px rgb(255, 255, 255), 4px 2px 2px 0px rgb(100, 100, 100), 4px 0px 10px rgb(100, 100, 100);
     color: #ffffff;
-    float: left;
+    /* float: left; */
     position: relative;
     height: 100%;
     padding: 0px 20px 0px 20px;
@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 #navBar {
-    float: right;
+    /* float: right; */
     position: relative;
     height: 100%;
     padding: 20px 20px 20px 20px;
@@ -139,14 +139,14 @@ main {
 }
 
 #photo {
-    float: left;
+    /* float: left; */
     border-radius: 50%;
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
     margin: 5px 16px 5px 0px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 #gallery {
@@ -154,20 +154,20 @@ main {
     padding: 20px;
 }
 
-.clearfix:after {
+/* .clearfix:after {
     content: " ";
     /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
     height: 0;
     clear: both;
-}
+} */
 
 .frame {
     margin: 20px;
     width: 260px;
     height: 260px;
-    float: left;
+    /* float: left; */
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
@@ -216,7 +216,7 @@ aside.caption {
     position: relative;
     bottom: 262px;
     text-align: center;
-    float: left;
+    /* float: left; */
     color: #ffffff;
     z-index: 2;
 }
@@ -282,8 +282,6 @@ body {
 main {
     position: relative;
     min-height: 75vh;
-    width: 80%;
-    /* justify-content: center; */
 }
 
 .heading {
@@ -322,7 +320,7 @@ a:hover {
         /* margin-top: 120px; */
 }
 
-*/ #logo {
+#logo {
     width: 100%;
     text-align: center;
     left: 0%;
@@ -335,8 +333,6 @@ a:hover {
     text-align: center;
     padding: 10px 20px 10px 20px;
     right: 0%;
-}
-
 }
 
 @media screen and (max-width: 768px) {

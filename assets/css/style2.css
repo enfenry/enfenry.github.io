@@ -1,0 +1,11 @@
+div {
+    outline: black solid 1px;
+}
+
+section {
+    outline: purple  dashed 2px;
+}
+
+main {
+    outline: red dotted 3px;
+}
