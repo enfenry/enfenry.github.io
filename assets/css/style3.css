@@ -1,0 +1,7 @@
+.row, .row-fluid {
+    outline: blue 2px solid;
+}
+
+.col {
+    outline: red 4px dashed;
+}
