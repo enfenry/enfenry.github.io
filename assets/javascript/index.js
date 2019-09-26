@@ -11,4 +11,7 @@ $(document).ready(function () {
         $('#' + id).addClass('show')
     });
 
+    $.getJSON("projects.json", function(json) {
+        console.log(json);
+    });
 });

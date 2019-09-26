@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Spider-Man",
+        "image": "/static/img/spider-man.jpg",
+        "marked": false
+    },
+    {
+        "id": 2,
+        "name": "Shuri",
+        "image": "/static/img/shuri.jpg",
+        "marked": false
+    },
+    {
+        "id": 3,
+        "name": "Drax",
+        "image": "/static/img/drax.jpg",
+        "marked": false
+    },
+    {
+        "id": 4,
+        "name": "The Winter Soldier",
+        "image": "/static/img/the_winter_soldier.jpg",
+        "marked": false
+    },
+    {
+        "id": 5,
+        "name": "The Wasp",
+        "image": "/static/img/the_wasp.jpg",
+        "marked": false
+    },
+    {
+        "id": 6,
+        "name": "Groot",
+        "image": "/static/img/groot.jpg",
+        "marked": false
+    },
+    {
+        "id": 7,
+        "name": "Nick Fury",
+        "image": "/static/img/nick_fury.jpg",
+        "marked": false
+    },
+    {
+        "id": 8,
+        "name": "Loki",
+        "image": "/static/img/loki.jpg",
+        "marked": false
+    },
+    {
+        "id": 9,
+        "name": "Scarlet Witch",
+        "image": "/static/img/scarlet_witch.jpg",
+        "marked": false
+    },
+    {
+        "id": 10,
+        "name": "Mantis",
+        "image": "/static/img/mantis.jpg",
+        "marked": false
+    },
+    {
+        "id": 11,
+        "name": "Vision",
+        "image": "/static/img/vision.jpg",
+        "marked": false
+    },
+    {
+        "id": 12,
+        "name": "Gamora",
+        "image": "/static/img/gamora.jpg",
+        "marked": false
+    },
+    {
+        "id": 13,
+        "name": "Doctor Strange",
+        "image": "/static/img/doctor_strange.jpg",
+        "marked": false
+    },
+    {
+        "id": 14,
+        "name": "Black Panther",
+        "image": "/static/img/black_panther.jpg",
+        "marked": false
+    },
+    {
+        "id": 15,
+        "name": "Star-Lord",
+        "image": "/static/img/star-lord.jpg",
+        "marked": false
+    },
+    {
+        "id": 16,
+        "name": "Falcon",
+        "image": "/static/img/falcon.jpg",
+        "marked": false
+    }
+]
