@@ -2,7 +2,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #838383;
     box-sizing: border-box;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 a {
@@ -42,11 +42,6 @@ h2 {
     color: rgba(255, 255, 255, 1);
 }
 
-/* h4 {
-    margin-block-start: .6rem;
-    margin-block-end: .3rem;
-} */
-
 h1:hover, h1:active, h1:focus {
     color: black;
     transition: .5s ease;
@@ -67,7 +62,6 @@ header {
     border: solid;
     border-color: #cccccc;
     border-width: 0px 0px 0px 0px;
-    /* box-shadow: 0px 0px 5px 0px rgb(100, 100, 100) inset, 0px 0px 10px 0px rgb(100, 100, 100) inset, 0px 0px 10px 0px rgb(100, 100, 100); */
     z-index: 3;
 }
 
@@ -152,8 +146,9 @@ main {
 }
 
 .frame {
-    width: 60%;
-    height: 60%;
+    position:relative;
+    width: 70%;
+    height: 70%;
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
@@ -175,8 +170,8 @@ img.caption:hover, img.external:hover {
 }
 
 img.project {
-    max-width:100%;
-    max-height:100%;
+    width:100%;
+    height:100%;
     transition: .5s ease;
     opacity: 1;
     -webkit-filter: grayscale(0%) contrast(100%);
@@ -197,12 +192,12 @@ a.portfolio:hover h4 {
 }
 
 aside.caption {
-    background-color: rgba(74, 170, 165, .8);
+    background-color: rgba(49, 50, 55, .8);
     width: 100%;
     height: 100%;
     padding: 10px;
-    position: relative;
-    top:-245px;
+    position: absolute;
+    bottom: 0%;
     text-align: center;
     float: left;
     color: #ffffff;
@@ -219,8 +214,6 @@ table.wide td {
 
 .desc {
     text-align: left;
-    font-size: .85rem;
-    line-height: .85rem;
     color: #ffffff;
 }
 
@@ -306,18 +299,63 @@ a:hover {
     }
 }
 
-.row, .row-fluid {
+@media screen and (max-width:768px) {
+    .frame {
+        width: 90%;
+        height: 90%;
+    }
+
+    .desc {
+        font-size: .9rem;
+        line-height: .9rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .frame {
+        width: 100%;
+        height: 100%;
+    }
+    .desc {
+        font-size: .8rem;
+        line-height: .8rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .frame {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .frame {
+        width: 100%;
+        height: 100%;
+    }
+
+    .desc {
+        font-size: .75rem;
+        line-height: .75rem;
+    }
+}
+
+.row-center {
     justify-content: center !important;
     align-items: center !important;
 }
 
-/* ------------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 640px) {
-    /* main {
-        max-width: 620px;
-        /* margin-top: 120px; */
+.col-center {
+    display:flex;
+    justify-content: center;
 }
+
+/* ------------------------------------------------------------------------------------- */
 
 #logo {
     width: 100%;
@@ -345,15 +383,3 @@ a:hover {
         max-width: 960px;
     } */
 }
-
-/* FUC AROUND ZONE */
-
-/* .row, .row-fluid {
-    outline: blue 2px solid;
-}
-
-.col {
-    outline: red 4px dashed;
-} */
-
-/* FUC AROUND ZONE */
