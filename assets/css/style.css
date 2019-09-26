@@ -142,9 +142,9 @@ main {
     /* float: left; */
     border-radius: 50%;
     border: solid;
-    border-width: 2px;
+    border-width: 4px;
     border-color: #dddddd;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 00px 10px 0px;
     max-width: 100%;
     max-height: 100%;
     float: right !important;
