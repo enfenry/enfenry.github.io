@@ -290,6 +290,10 @@ h2:hover, .navbar-brand:hover {
     opacity: 1;
 }
 
+.navbar-brand {
+    font-family: 'Georgia', Times, 'Times New Roman', serif
+}
+
 #nav-ul {
     margin-top: 0px !important;
     align-items: center;
