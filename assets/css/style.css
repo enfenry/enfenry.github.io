@@ -149,6 +149,7 @@ main {
     position:relative;
     width: 70%;
     height: 70%;
+    margin: 15px 0px 15px 0px;
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
@@ -218,7 +219,8 @@ table.wide td {
 }
 
 small {
-    font-size: .6rem;
+    width: 100%;
+    /* font-size: .6rem; */
     line-height: .6rem;
     color: #ffffff;
 }

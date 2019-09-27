@@ -48,12 +48,17 @@ $(document).ready(function () {
     function createTechList(obj) {
         let row = $("<div>");
         row.addClass("row");
-        obj.technologies.forEach(function(technology) {
+        obj.technologies.forEach(function (technology) {
             let col = $("<div>");
             col.addClass("col-6");
             let li = $("<li>");
             li.addClass("desc");
-            li.html(technology);
+            if (technology.length > 15) {
+                li.html("<small>" + technology + "</small>");
+            }
+            else {
+                li.html(technology);
+            }
             col.append(li);
             row.append(col);
         })
