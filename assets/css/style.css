@@ -139,7 +139,7 @@ main {
     border: solid;
     border-width: 4px;
     border-color: #dddddd;
-    margin: 10px 00px 10px 0px;
+    margin: 10px 0px 10px 0px;
     max-width: 100%;
     max-height: 100%;
     float: right !important;
@@ -303,9 +303,6 @@ h2:hover, .navbar-brand:hover {
     #main-nav {
         justify-content: center;
     }
-    #photo {
-        margin: 10px 0px 10px 0px;
-    }
     a.anchor {
         top: -220px;
     }
@@ -319,6 +316,13 @@ h2:hover, .navbar-brand:hover {
     .desc {
         font-size: .9rem;
         line-height: .9rem;
+    }
+    #photo {
+        max-width: 70%;
+    }
+    .col-photo {
+        display: flex;
+        justify-content: center;
     }
 }
 
