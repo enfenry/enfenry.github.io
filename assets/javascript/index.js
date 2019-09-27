@@ -104,56 +104,6 @@ $(document).ready(function () {
         return col;
     }
 
-    // <div class="col-center col-12 col-md-6 col-xl-3">
-    //                 <div class="frame">
-    //                     <img class="project" src="assets/images/recognicer.png">
-    //                     <aside class="caption">
-    //                         <a class='portfolio' href='https://mighty-garden-76734.herokuapp.com/' target='_blank'>
-    //                             <h4>Smart Photo Library</h4>
-    //                         </a>
-    //                         <a href='https://github.com/ansarkhan/Recognicer' target='_blank'>
-    //                             <img class='caption' src='assets/images/gitHub_white.png' width='20' height='20'>
-    //                         </a>
-    //                         <br />
-    //                         <br />
-    //                         <div class="desc">
-    //                             Smart online photo library that lets you securely store, filter and organize
-    //                             your
-    //                             photo
-    //                             collection. The app is built on a MERN stack and utilizes S3 and Rekognition
-    //                             by
-    //                             AWS.
-    //                             <br />
-    //                             <br />
-    //                             Utilizes:
-    //                         </div>
-    //                         <div class="row">
-    //                             <div class="col-6">
-    //                                 <li class="desc">React</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">AWS</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">Node</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">JavaScript</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">MongoDB</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">CSS</li>
-    //                             </div>
-    //                             <div class="col-6">
-    //                                 <li class="desc">Materialize</li>
-    //                             </div>
-    //                         </div>
-    //                     </aside>
-    //                 </div>
-    //             </div>
-
     $('.navbar-link').on('click', function () {
         let id = $(this).attr('aria-controls');
         $('#' + id).addClass('show')
