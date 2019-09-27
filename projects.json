@@ -1,98 +1,167 @@
 [
     {
-        "id": 1,
-        "name": "Spider-Man",
-        "image": "/static/img/spider-man.jpg",
-        "marked": false
+        "title": "Guitar Scale Book",
+        "src": "assets/images/guitarizard.png",
+        "href": "https://guitarizard.com",
+        "description": "Look up musical scales and modes on a virtual fretboard for various instruments, allowing for flexible tuning.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "CSS"
+        ]
     },
     {
-        "id": 2,
-        "name": "Shuri",
-        "image": "/static/img/shuri.jpg",
-        "marked": false
+        "title": "Smart Photo Library",
+        "src": "assets/images/recognicer.png",
+        "href": "https://mighty-garden-76734.herokuapp.com",
+        "github": "https://github.com/ansarkhan/Recognicer",
+        "description": "Smart online photo library that lets you securely store, filter and organize your photo collection. The app is built on a MERN stack and utilizes S3 and Rekognition by AWS.",
+        "technologies": [
+            "React",
+            "AWS",
+            "Node",
+            "JavaScript",
+            "MongoDB",
+            "CSS",
+            "Materialize"
+        ]
     },
     {
-        "id": 3,
-        "name": "Drax",
-        "image": "/static/img/drax.jpg",
-        "marked": false
+        "title": "Virtual Planner",
+        "src": "assets/images/project_2.png",
+        "href": "https://blooming-refuge-52964.herokuapp.com",
+        "github": "https://github.com/loganshahan/Virtual-Planner",
+        "description": "Keep track of to-do's, budget and calendar events. The personalized dashboard gives you access to all of these features. Enjoy planning made easy and watch your productivity soar!",
+        "technologies": [
+            "React",
+            "Material-UI",
+            "Node",
+            "JavaScript",
+            "MySQL",
+            "CSS",
+            "Google Oauth"
+        ]
     },
     {
-        "id": 4,
-        "name": "The Winter Soldier",
-        "image": "/static/img/the_winter_soldier.jpg",
-        "marked": false
+        "title": "Sudoku Generator",
+        "src": "assets/images/sudoku.png",
+        "href": "https://sudoku-play.herokuapp.com",
+        "github": "https://github.com/enfenry/sudoku_generator",
+        "description": "Play an infinite amount of sudoku games at your preferred difficulty level.",
+        "technologies": [
+            "React",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "Bootstrap"
+        ]
     },
     {
-        "id": 5,
-        "name": "The Wasp",
-        "image": "/static/img/the_wasp.jpg",
-        "marked": false
+        "title": "World News Scraper",
+        "src": "assets/images/scraper.png",
+        "href": "https://limitless-ravine-91739.herokuapp.com",
+        "github": "https://github.com/enfenry/Mongo_Scraper",
+        "description": "Scrape, favorite, and comment on articles from the /r/worldnews subreddit.",
+        "technologies": [
+            "Bootstrap",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "Cheerio",
+            "Express",
+            "Mongoose",
+            "Express-Handlebars"
+        ]
     },
     {
-        "id": 6,
-        "name": "Groot",
-        "image": "/static/img/groot.jpg",
-        "marked": false
+        "title": "Marvel Memory Game",
+        "src": "assets/images/memory_game.png",
+        "href": "http://clicky-game.s3-website.us-east-2.amazonaws.com",
+        "github": "https://github.com/enfenry/clicky_game",
+        "description": "Remember The Fallen is a React-based memory game. Click on each character only once to reach the maximum high score!",
+        "technologies": [
+            "React",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "Bootstrap"
+        ]
     },
     {
-        "id": 7,
-        "name": "Nick Fury",
-        "image": "/static/img/nick_fury.jpg",
-        "marked": false
+        "title": "GIPHY App",
+        "src": "assets/images/GIPHY.png",
+        "href": "https://enfenry.github.io/GIPHY-App",
+        "github": "https://github.com/enfenry/GIPHY-App",
+        "description": "Simple application to search for, play, pause, and favorite animal GIFs.",
+        "technologies": [
+            "Bootstrap",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "jQuery",
+            "GIPHY API"
+        ]
     },
     {
-        "id": 8,
-        "name": "Loki",
-        "image": "/static/img/loki.jpg",
-        "marked": false
+        "title": "Burger App",
+        "src": "assets/images/Burger.png",
+        "href": "https://murmuring-inlet-95809.herokuapp.com",
+        "github": "https://github.com/enfenry/Burger",
+        "description": "App which uses an MVC framework to allow users to create and 'eat' burgers which updates the database.",
+        "technologies": [
+            "Bootstrap",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "jQuery",
+            "Express",
+            "MySQL",
+            "Express-Handlebars"
+        ]
     },
     {
-        "id": 9,
-        "name": "Scarlet Witch",
-        "image": "/static/img/scarlet_witch.jpg",
-        "marked": false
+        "title": "Friend Finder",
+        "src": "assets/images/friend_finder.png",
+        "href": "https://safe-peak-25645.herokuapp.com",
+        "github": "https://github.com/enfenry/Friend_Finder",
+        "description": "The Friend Finder App asks users to complete a brief survey, then finds a user in the database with the most compatible responses.",
+        "technologies": [
+            "Bootstrap",
+            "Node",
+            "JavaScript",
+            "CSS",
+            "jQuery",
+            "Express"
+        ]
     },
     {
-        "id": 10,
-        "name": "Mantis",
-        "image": "/static/img/mantis.jpg",
-        "marked": false
+        "title": "Star Wars Fighting Game",
+        "src": "assets/images/star_wars_rpg.png",
+        "href": "https://enfenry.github.io/Unit-4-Game",
+        "github": "https://github.com/enfenry/Unit-4-Game",
+        "description": "Choose your character and the order in which to fight your opponents in this Star Wars-themed browser-based game with RPG elements.",
+        "technologies": [
+            "Node",
+            "JavaScript",
+            "CSS",
+            "jQuery"
+        ]
     },
     {
-        "id": 11,
-        "name": "Vision",
-        "image": "/static/img/vision.jpg",
-        "marked": false
-    },
-    {
-        "id": 12,
-        "name": "Gamora",
-        "image": "/static/img/gamora.jpg",
-        "marked": false
-    },
-    {
-        "id": 13,
-        "name": "Doctor Strange",
-        "image": "/static/img/doctor_strange.jpg",
-        "marked": false
-    },
-    {
-        "id": 14,
-        "name": "Black Panther",
-        "image": "/static/img/black_panther.jpg",
-        "marked": false
-    },
-    {
-        "id": 15,
-        "name": "Star-Lord",
-        "image": "/static/img/star-lord.jpg",
-        "marked": false
-    },
-    {
-        "id": 16,
-        "name": "Falcon",
-        "image": "/static/img/falcon.jpg",
-        "marked": false
+        "title": "LIRI Bot",
+        "src": "assets/images/LIRI.png",
+        "href": "https://github.com/enfenry/LIRI_Node_App",
+        "github": "https://github.com/enfenry/LIRI_Node_App",
+        "description": "Language Interpretation and Recognition Interface (LIRI) is a command line node app that takes in parameters and gives you back data using various API calls.",
+        "technologies": [
+            "Axios",
+            "Node",
+            "JavaScript",
+            "OMDB API",
+            "DotEnv",
+            "Node-Spotify-API",
+            "Moment",
+            "Bands In Town API"
+        ]
     }
 ]
