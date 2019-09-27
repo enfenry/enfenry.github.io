@@ -96,7 +96,7 @@ $(document).ready(function () {
         col.addClass("col-center col-12 col-md-6 col-xl-3");
         let frame = createProjectFrame(obj)
         col.append(frame);
-        console.log(col[0].outerHTML);
+        return col;
     }
 
     // <div class="col-center col-12 col-md-6 col-xl-3">
@@ -157,11 +157,9 @@ $(document).ready(function () {
     $.getJSON("projects.json", function (json) {
 
         json.forEach(function (ele, index) {
-            let projectDiv = createProject(ele);
-            $("#portfolio-content").append(projectDiv);
+            let project = createProject(ele);
+            $("#portfolio-content").append(project);
         });
-
-
-
     });
+
 });
