@@ -299,15 +299,6 @@ h2:hover, .navbar-brand:hover {
     align-items: center;
 }
 
-@media screen and (max-width:574px) {
-    #main-nav {
-        justify-content: center;
-    }
-    a.anchor {
-        top: -220px;
-    }
-}
-
 @media screen and (max-width:768px) {
     .frame {
         width: 90%;
@@ -323,6 +314,37 @@ h2:hover, .navbar-brand:hover {
     .col-photo {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:574px) {
+    #main-nav {
+        justify-content: center;
+    }
+    a.anchor {
+        top: -220px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .desc {
+        font-size: .7rem;
+        line-height: .7rem;
+    }
+    h4 {
+        font-size: 1rem;
+        line-height: .7rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .desc {
+        font-size: .6rem;
+        line-height: .6rem;
+    }
+    h4 {
+        font-size: .8rem;
+        line-height: .6rem;
     }
 }
 
