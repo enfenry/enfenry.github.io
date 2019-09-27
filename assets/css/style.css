@@ -317,6 +317,7 @@ h2:hover, .navbar-brand:hover {
     }
 }
 
+
 @media screen and (max-width:574px) {
     #main-nav {
         justify-content: center;
