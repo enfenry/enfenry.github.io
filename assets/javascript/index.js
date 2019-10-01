@@ -104,11 +104,6 @@ $(document).ready(function () {
         return col;
     }
 
-    $('.navbar-link').on('click', function () {
-        let id = $(this).attr('aria-controls');
-        $('#' + id).addClass('show')
-    });
-
     $.getJSON("projects.json", function (json) {
 
         json.forEach(function (ele, index) {
@@ -117,4 +112,9 @@ $(document).ready(function () {
         });
     });
 
+    $('.navbar-link').on('click', function () {
+        let id = $(this).attr('aria-controls');
+        $('#' + id).addClass('show')
+        console.log(id);
+    });
 });
