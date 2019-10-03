@@ -10,15 +10,15 @@ a {
 }
 
 a.portfolio {
-    color: #ffffff;
+    text-decoration: none;
 }
 
 img.external {
     margin: 0px 10px 0px 10px;
 }
 
-h2, h4 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h2, h4, .navbar-brand {
+    font-family: 'Georgia', Times, 'Times New Roman', serif
 }
 
 h4 {
@@ -33,12 +33,15 @@ h2, .navbar-brand {
 a.contact {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    opacity: .5; 
+    opacity: .5;
 }
 
 body {
     background-image: url("../images/dark_stripes/dark_stripes_@2X.png");
     background-repeat: repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -78,6 +81,8 @@ main {
     padding: 20px;
     margin-bottom: 90px;
     z-index: 1;
+    position: relative;
+    min-height: 75vh;
 }
 
 #photo {
@@ -169,17 +174,6 @@ small {
     text-align: center;
 }
 
-#inputname, #inputemail, #inputmessage {
-    width: 100%;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 1px;
-}
-
-#inputmessage {
-    height: 200px;
-}
-
 #submitbutton {
     background-color: rgba(74, 170, 165, 1);
     color: #ffffff;
@@ -188,17 +182,6 @@ small {
 }
 
 /* ------------------------------------------------------------------------------------- */
-
-body {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-main {
-    position: relative;
-    min-height: 75vh;
-}
 
 .heading {
     justify-content: center;
@@ -220,10 +203,6 @@ a:hover {
 h2:hover, .navbar-brand:hover {
     transition: .5s ease;
     opacity: 1;
-}
-
-.navbar-brand {
-    font-family: 'Georgia', Times, 'Times New Roman', serif
 }
 
 #nav-ul {
@@ -248,7 +227,6 @@ h2:hover, .navbar-brand:hover {
         justify-content: center;
     }
 }
-
 
 @media screen and (max-width:574px) {
     #main-nav {
@@ -280,7 +258,6 @@ h2:hover, .navbar-brand:hover {
         line-height: .6rem;
     }
 }
-
 
 @media screen and (min-width:768px) {
     .frame {
@@ -325,25 +302,21 @@ h2:hover, .navbar-brand:hover {
     justify-content: center;
 }
 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(49, 50, 55);
+}
 
-::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+::-webkit-scrollbar {
+    width: 12px;
     background-color: #dddddd;
 }
 
-::-webkit-scrollbar
-{
-    width: 12px;
-    background-color: rgba(49, 50, 55);
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #dddddd;
 }
-
-::-webkit-scrollbar-thumb
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: rgba(49, 50, 55);
-}
-
 
 /* ------------------------------------------------------------------------------------- */
 
@@ -361,4 +334,3 @@ h2:hover, .navbar-brand:hover {
     padding: 10px 20px 10px 20px;
     right: 0%;
 }
-
