@@ -13,8 +13,23 @@ a.portfolio {
     text-decoration: none;
 }
 
+/* a[target="_blank"]:after {
+    content: " (external)";
+} */
+
+/* a[target="_blank"]:after {
+    content: url("../images/external-link-indicator.svg");
+} */
+
 img.external {
     margin: 0px 10px 0px 10px;
+}
+
+img.indicator {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    /* max-width: 70%; */
+    max-height: 1rem;
 }
 
 h2, h4, .navbar-brand {
@@ -34,6 +49,10 @@ a.contact {
     color: rgb(255, 255, 255);
     text-decoration: none;
     opacity: .5;
+}
+
+strong {
+    color: rgb(255, 255, 255);
 }
 
 body {
