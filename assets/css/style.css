@@ -23,6 +23,10 @@ img.indicator {
     max-height: 1rem;
 }
 
+span.normal {
+    font-weight: normal;
+}
+
 h2, h4, .navbar-brand {
     font-family: 'Georgia', Times, 'Times New Roman', serif
 }
@@ -42,8 +46,12 @@ a.contact {
     opacity: .5;
 }
 
-strong {
+strong, span.normal {
     color: rgb(255, 255, 255);
+}
+
+span.normal {
+    font-weight: normal;
 }
 
 body {
