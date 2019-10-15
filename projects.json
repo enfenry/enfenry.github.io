@@ -14,7 +14,7 @@
         "title": "Smart Photo Library",
         "src": "assets/images/recognicer.png",
         "href": "https://mighty-garden-76734.herokuapp.com",
-        "github": "https://github.com/ansarkhan/Recognicer",
+        "github": "https://github.com/enfenry/Recognicer",
         "description": "Smart online photo library that lets you securely store, filter and organize your photo collection. The app is built on a MERN stack and utilizes S3 and Rekognition by AWS.",
         "technologies": [
             "React",
@@ -30,7 +30,7 @@
         "title": "Virtual Planner",
         "src": "assets/images/project_2.png",
         "href": "https://blooming-refuge-52964.herokuapp.com",
-        "github": "https://github.com/loganshahan/Virtual-Planner",
+        "github": "https://github.com/enfenry/Virtual-Planner",
         "description": "Keep track of to-do's, budget and calendar events. The personalized dashboard gives you access to all of these features. Enjoy planning made easy and watch your productivity soar!",
         "technologies": [
             "React",
