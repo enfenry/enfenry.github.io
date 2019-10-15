@@ -1,22 +1,21 @@
 $(document).ready(function () {
-    // let aboutNav = $('#about-nav');
-    // console.log(aboutNav.attr('class'));
-    // aboutNav.removeClass('active');
-
-    // aboutNav.attr("class", "nav-link navbar-link")
 
     function createProjectImage(obj) {
         let img = $("<img>");
-        img.addClass("project");
-        img.attr("src", obj.src);
+        img.attr({
+            "class": "project",
+            "src": obj.src
+        });
         return img;
     }
 
     function createPrimaryLink(obj) {
         let primaryLink = $("<a>");
-        primaryLink.addClass("portfolio");
-        primaryLink.attr("href", obj.href);
-        primaryLink.attr("target", "_blank");
+        primaryLink.attr({
+            "class": "portfolio",
+            "href": obj.href,
+            "target": "_blank"
+        });
         let title = $("<h4>");
         title.html(obj.title)
         primaryLink.html(title);
@@ -25,13 +24,17 @@ $(document).ready(function () {
 
     function createGitHubLink(obj) {
         let gitHubLink = $("<a>");
-        gitHubLink.attr("href", obj.github);
-        gitHubLink.attr("target", "_blank");
+        gitHubLink.attr({
+            "href": obj.github,
+            "target": "_blank"
+        });
         let img = $("<img>");
-        img.addClass("caption");
-        img.attr("src", "assets/images/gitHub_white.png");
-        img.attr("width", "20");
-        img.attr("height", "20");
+        img.attr({
+            "class": "caption",
+            "src": "assets/images/gitHub_white.png",
+            "width": "20",
+            "height": "20"
+        });
         gitHubLink.html(img);
         return gitHubLink;
     }
@@ -106,7 +109,7 @@ $(document).ready(function () {
 
     $.getJSON("projects.json", function (json) {
 
-        json.forEach(function (ele, index) {
+        json.forEach(function (ele) {
             let project = createProject(ele);
             $("#portfolio-content").append(project);
         });
